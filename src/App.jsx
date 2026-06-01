@@ -4,7 +4,7 @@ import { useState, useEffect, useRef } from "react";
 //  PASTE YOUR FREE GROQ API KEY HERE
 //  Get it free in 2 min → console.groq.com
 // ─────────────────────────────────────────────
-const GROQ_API_KEY = "YOUR_GROQ_API_KEY_HERE";
+const GROQ_API_KEY = process.env.REACT_APP_GROQ_API_KEY;
 const GROQ_MODEL = "llama3-70b-8192";
 
 const MODES = [
